@@ -19,6 +19,7 @@ class Api::V1::OrdersController < ApplicationController
       render json: order, status: 200
     else
       render json: {error: "Order not created"}, status: 422
+    end
   end
 
   def destroy
