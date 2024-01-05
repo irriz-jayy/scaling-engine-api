@@ -19,6 +19,16 @@ class Api::V1::OrdersController < ApplicationController
       render json: order, status: 200
     else
       render json: {error: "Order not created"}, status: 422
+    end
+  end
+
+  def destroy
+    order = Order.find_by(id:params[:id])
+    if order
+      order.destroy
+    else
+      render json: {error: "Order not found"}, status: 422
+    end
   end
 
   private
