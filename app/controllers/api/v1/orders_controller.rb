@@ -12,4 +12,23 @@ class Api::V1::OrdersController < ApplicationController
       render json: {error: "Order not found"}
     end
   end
+
+  def create
+    order = Order.create(order_params)
+    if order
+      render json: order, status: 200
+    else
+      render json: {error: "Order not created"}, status: 422
+  end
+
+  private
+  def order_params
+    params.require(:order).permit(
+      :name,
+      :image,
+      :price,
+      :quantity
+    )
+  end
+
 end
