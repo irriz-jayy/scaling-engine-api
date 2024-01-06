@@ -13,7 +13,7 @@ puts "Cooking food👨‍🍳🍔"
 
 puts "First up tacos"
 Food.create(
-    name: "Beef tacos",
+    name: "Chutney© beef tacos",
     text: "The mexican delicacy with beef fillings bound to be a hit with your taste buds",
     price: 250,
     buttonText: "Order 🌮",
@@ -22,7 +22,7 @@ Food.create(
 )
 
 Food.create(
-    name: "Taco de asada",
+    name: "Chutney© tacos de asada",
     text: "This taco is filled with grilled steak and tastes like heaven",
     price: 250,
     buttonText: "Order 🌮",
@@ -31,7 +31,7 @@ Food.create(
 )
 
 Food.create(
-    name: "Taco de pollo",
+    name: "Chutney© tacos de pollo",
     text: " A taco with grilled chicken is no longer a dream, buy and bite",
     price: 250 ,
     buttonText: "Order 🌮",
@@ -44,8 +44,8 @@ puts "Done!!"
 puts "Next, Chicken"
 
 Food.create(
-    name: "Fried chicken",
-    text: " Chutney fried chicken with immaculate crisp and outstanding taste",
+    name: "Chutney© fried chicken",
+    text: "Chutney© fried chicken with immaculate crisp and outstanding taste",
     price: 320,
     buttonText: "Order 🍗",
     default_image:"https://rb.gy/v6c9id",
@@ -53,8 +53,8 @@ Food.create(
 )
 
 Food.create(
-    name: "Chicken wings",
-    text: "Chutney chicken wings with crispy and crispy taste",
+    name: "Chutney© chicken wings",
+    text: "Chutney© chicken wings with crispy and crispy taste",
     price: 220,
     buttonText: "Order 🍗",
     default_image:"https://rb.gy/qxapgt",
@@ -63,7 +63,7 @@ Food.create(
 
 
 Food.create(
-    name: "Chutney bucket",
+    name: "Chutney© chicken bucket",
     text: "Chicken bucket with assorted pieces adn max crisp and taste",
     price: 1200,
     buttonText: "Order 🍗",
@@ -78,7 +78,7 @@ puts "Next, fries"
 
 Food.create(
     name: "Plain fries",
-    text: " Salted and ready to go as a side to any Chutney bite",
+    text: " Salted and ready to go as a side to any Chutney© bite",
     price: 150 ,
     buttonText: "Order 🍟",
     default_image:"https://shorturl.at/gMVW2",
@@ -86,8 +86,8 @@ Food.create(
 )
 
 Food.create(
-    name: "Chutney crinkle",
-    text: " Seasoned and crinkled fries..taste ans style at Chutney",
+    name: "Chutney© crinkle fries",
+    text: " Seasoned and crinkled fries..taste ans style at Chutney©",
     price: 170 ,
     buttonText: "Order 🍟",
     default_image:"https://github.com/irriz-jayy/supreme-dollop/blob/main/crinkle.jpg?raw=true",
@@ -95,7 +95,7 @@ Food.create(
 )
 
 Food.create(
-    name: "Chutney seasoned",
+    name: "Chutney© seasoned fries",
     text: " Freies with an entertaining spin of flavor",
     price: 200,
     buttonText: "Order 🍟",
@@ -108,7 +108,7 @@ puts "Done!!"
 puts "Next, burgers"
 
 Food.create(
-    name: "Chutney Beef burger",
+    name: "Chutney© Beef burgers",
     text: "Beef patty comba that leaves an never ending tatse",
     price: 300,
     buttonText: "Order 🍔",
@@ -117,8 +117,8 @@ Food.create(
 )
 
 Food.create(
-    name: "Chutney Chicken burger",
-    text: "Same taste burger with Chutney crispy chicken instead",
+    name: "Chutney© Chicken burgers",
+    text: "Same taste burger with Chutney© crispy chicken instead",
     price: 300,
     buttonText: "Order 🍔",
     default_image:"https://github.com/irriz-jayy/supreme-dollop/blob/main/chickenburger.jpg?raw=true",
@@ -126,8 +126,8 @@ Food.create(
 )
 
 Food.create(
-    name: "Chutney burger combo",
-    text: " Chutney burger fries and soda for the ultimate meal",
+    name: "Chutney© burgers combo",
+    text: " Chutney© burger fries and soda for the ultimate meal",
     price: 500,
     buttonText: "Order 🍔",
     default_image:"https://github.com/irriz-jayy/scaling-engine/blob/main/src/assets/food%20assets/burgerchips.jpg?raw=true",
@@ -139,8 +139,8 @@ puts "Done!!"
 puts "Next, pizza"
 
 Food.create(
-    name: "Chutney pepperoni",
-    text: "Chutney signature pepperoni pizza slices that are a biter",
+    name: "Chutney© pepperoni pizza",
+    text: "Chutney© signature pepperoni pizza slices that are a biter",
     price: 600,
     buttonText: "Order 🍕",
     default_image:"https://github.com/irriz-jayy/supreme-dollop/blob/main/pepperoni-hover.jpg?raw=true",
@@ -148,8 +148,8 @@ Food.create(
 )
 
 Food.create(
-    name: "Chutney chicken pizza",
-    text: "Pizza with a twist of Chutney chicken",
+    name: "Chutney© chicken pizza",
+    text: "Pizza with a twist of Chutney© chicken",
     price: 650,
     buttonText: "Order 🍕",
     default_image:"https://github.com/irriz-jayy/supreme-dollop/blob/main/pizza.jpg?raw=true",
@@ -180,7 +180,7 @@ Food.create(
 
 Food.create(
     name: "Soda small",
-    text: "Every Chutney goes well with a soda",
+    text: "Every Chutney© goes well with a soda",
     price: 200,
     buttonText: "Order 🥤",
     default_image:"https://github.com/irriz-jayy/supreme-dollop/blob/main/bottlesm.jpg?raw=true",
@@ -189,7 +189,7 @@ Food.create(
 
 Food.create(
     name: "Soda large",
-    text: "Every Chutney goes well with a soda",
+    text: "Every Chutney© goes well with a soda",
     price: 20,
     buttonText: "Order 🥤",
     default_image:"https://github.com/irriz-jayy/supreme-dollop/blob/main/bottlelg.jpg?raw=true",
