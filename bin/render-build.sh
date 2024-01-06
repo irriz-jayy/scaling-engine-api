@@ -5,4 +5,4 @@ set -o errexit
 bundle install
 rails db:create
 rails db:migrate
-rails db:seed
+rails db:seed:replant
